@@ -1,0 +1,22 @@
+{
+    "name": "pinecone-web-scraper",
+    "version": "1.0.0",
+    "description": "A web scraping API that uses Pinecone and Groq to summarize data",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js",
+        "dev": "nodemon main.js"
+    },
+    "dependencies": {
+        "@pinecone-database/pinecone": "^5.1.1",
+        "axios": "^1.8.4",
+        "dotenv": "^16.0.0",
+        "openai": "^4.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT"
+}
